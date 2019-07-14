@@ -3,6 +3,7 @@ import {Button, Modal} from 'react-bootstrap'
 import { Link } from "react-router-dom";
 
 import SignupForm from './SignupForm'
+import LoginForm from './LoginForm'
 
 import Logo from '../images/Logo.png'
 
@@ -75,7 +76,11 @@ class NavBar extends React.Component{
 				                <Link className="nav-link mx-2 menu-item text-white" to="/contact"><small>Contact</small></Link>
 				            </li>
 				            <li className="nav-item">
-				            	<Button className="nav-link mx-2 menu-item text-white" variant="outline-success" size="sm">
+				            	<Button
+				            		className="nav-link mx-2 menu-item text-white"
+				            		variant="outline-success" size="sm"
+				            		onClick = {this.handleShow}
+				            		>
 				            		Sign in
 				            	</Button>
 				            </li>
@@ -93,9 +98,9 @@ class NavBar extends React.Component{
 				</nav>
 
 				<Modal show={this.state.show} onHide={this.handleClose}>
-		        	<Modal.Header closeButton>
-		        		<Modal.Title className="text-center">CalmerLogo</Modal.Title>
-		        	</Modal.Header>
+		        	<div closeButton>
+		        		<img src={Logo} alt="CalmerLogo" className="logo"/>
+		        	</div>
 		        	
 		        	<Modal.Body>
 		        		<Modal.Title className="text-center">Create an account</Modal.Title>
@@ -106,6 +111,21 @@ class NavBar extends React.Component{
 
 		        	<Modal.Footer>
 		        		<p className="text-center"> Already a member? Sign in</p>
+		        	</Modal.Footer>
+		        </Modal>
+
+		        <Modal show={this.state.show} onHide={this.handleClose}>
+		        	<Modal.Header closeButton>
+		        		<img src={Logo} alt="CalmerLogo" className="logo"/>
+		        	</Modal.Header>
+		        	
+		        	<Modal.Body>
+		        		<Modal.Title className="text-center">User Login</Modal.Title>
+		        		<LoginForm/>
+		        	</Modal.Body>
+
+		        	<Modal.Footer>
+		        		<p className="text-center">Don't have an account? Sign up</p>
 		        	</Modal.Footer>
 		        </Modal>
 			</div>

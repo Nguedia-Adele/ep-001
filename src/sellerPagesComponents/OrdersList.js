@@ -1,8 +1,6 @@
 import React from 'react'
 
-import AdminNavBar from '../sellerPagesComponents/AdminNavBar'
-
-import {Button, Collapse} from 'react-bootstrap'
+import {Collapse} from 'react-bootstrap'
 
 import {FaRegCheckCircle} from 'react-icons/fa';
 

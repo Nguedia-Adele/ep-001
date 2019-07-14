@@ -6,7 +6,7 @@ class SignupForm extends React.Component{
 		return(
 			<div>
 				<Form>
-					<Form.Group as={Row} controlId="formHorizontalEmail">
+					<Form.Group as={Row} controlId="formHorizontalName">
 					    <Col>
 					    	<Form.Control placeholder="First name" />
 					    </Col>

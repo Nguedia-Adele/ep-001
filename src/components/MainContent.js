@@ -185,19 +185,19 @@ class MainContent extends React.Component{
 									<p>
 										If you already have you plan out and are ready to shop, it’s really
 										easy. Follow the steps:
-										<ul className="no-bullet-list">
-											<li>Click ……….</li>
-											<li>Fill in your event type, event prospective date and event location.</li>
-											<li>Then start shopping.</li>
-											<li>You can start by selecting a category e.g cakes, suits, hotels, travel agents.</li>
-											<li>You will be presented with variety of vendors and you can make your selection.</li>
-											<li>When you are done, you can crosscheck your chart to be sure you have all you need.</li>
-											<li>Fill in your delivery details and submit.</li>
-											<li>Wait for our confirmation then</li>
-											<li>Select a mode of payment and make your deposit. One of our agents will get in touch
-											with you and finalize on delivery.</li>
-										</ul>
 									</p>
+									<ul className="no-bullet-list">
+										<li>Click ……….</li>
+										<li>Fill in your event type, event prospective date and event location.</li>
+										<li>Then start shopping.</li>
+										<li>You can start by selecting a category e.g cakes, suits, hotels, travel agents.</li>
+										<li>You will be presented with variety of vendors and you can make your selection.</li>
+										<li>When you are done, you can crosscheck your chart to be sure you have all you need.</li>
+										<li>Fill in your delivery details and submit.</li>
+										<li>Wait for our confirmation then</li>
+										<li>Select a mode of payment and make your deposit. One of our agents will get in touch
+										with you and finalize on delivery.</li>
+									</ul>
 								</li>
 
 								<li>
@@ -206,23 +206,23 @@ class MainContent extends React.Component{
 										For events that we will completely cover, we will assign someone to you who
 										will be in charge of your event/travel and will be our representative on the
 										ground over the next month’s up to the time of your event. They will be your handler 
-										<ul className="no-bullet-list">
-											<li>Checklist: your handler will go through your goals with you and will design tasks and
-											assign their expected duration. Then he/she will draw a customized checklist for your event
-											within your budget and do a thorough work breakdown structure for the office.</li>
-											<li>Vendor selection.: from our vast network of vendors, you will get to select each item
-											based on the prices on your checklist.</li>
-											<li>Report: your handler will stay in touch with you continuously giving you feed back on
-											the process as we progress </li>
-											<li>Add in: if you forgot any desire or get a new idea along the line don’t worry, just let
-											your handler know and we will make possible adjustments.</li>
-											<li>Finalizing: we make sure everything on our checklist is in place and do final touches
-											quite some time before the event/travel. Meanwhile at this point, you are expected to take
-											rest and relaxation exercises. Beauty spa and nature relaxations are advised. </li>
-											<li>Day of: set up is completed hours before the event and we provide site coordinator(s)
-											to organize and maintain balance of the event environment. You show up and enjoy your event </li>
-										</ul>
 									</p>
+									<ul className="no-bullet-list">
+										<li>Checklist: your handler will go through your goals with you and will design tasks and
+										assign their expected duration. Then he/she will draw a customized checklist for your event
+										within your budget and do a thorough work breakdown structure for the office.</li>
+										<li>Vendor selection.: from our vast network of vendors, you will get to select each item
+										based on the prices on your checklist.</li>
+										<li>Report: your handler will stay in touch with you continuously giving you feed back on
+										the process as we progress </li>
+										<li>Add in: if you forgot any desire or get a new idea along the line don’t worry, just let
+										your handler know and we will make possible adjustments.</li>
+										<li>Finalizing: we make sure everything on our checklist is in place and do final touches
+										quite some time before the event/travel. Meanwhile at this point, you are expected to take
+										rest and relaxation exercises. Beauty spa and nature relaxations are advised. </li>
+										<li>Day of: set up is completed hours before the event and we provide site coordinator(s)
+										to organize and maintain balance of the event environment. You show up and enjoy your event </li>
+									</ul>
 								</li>
 
 								<li>
