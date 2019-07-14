@@ -87,7 +87,7 @@ class NavBar extends React.Component{
 				            <li className="nav-item">
 				            	<Button
 				            		className="nav-link mx-2 menu-item text-white"
-				            		variant="success" onClick={this.handleShow}
+				            		variant="success" 
 				            		size="sm"
 				            		block>
 				            			Sign Up
@@ -97,10 +97,10 @@ class NavBar extends React.Component{
 				    </div>
 				</nav>
 
-				<Modal show={this.state.show} onHide={this.handleClose}>
-		        	<div closeButton>
+				<Modal id="signup">
+		        	<Modal.Header closeButton>
 		        		<img src={Logo} alt="CalmerLogo" className="logo"/>
-		        	</div>
+		        	</Modal.Header>
 		        	
 		        	<Modal.Body>
 		        		<Modal.Title className="text-center">Create an account</Modal.Title>
@@ -114,7 +114,7 @@ class NavBar extends React.Component{
 		        	</Modal.Footer>
 		        </Modal>
 
-		        <Modal show={this.state.show} onHide={this.handleClose}>
+		        <Modal id="login" show={this.state.show} onHide={this.handleClose}>
 		        	<Modal.Header closeButton>
 		        		<img src={Logo} alt="CalmerLogo" className="logo"/>
 		        	</Modal.Header>
