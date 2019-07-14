@@ -4,7 +4,7 @@ import {Button, Form, Row, Col} from 'react-bootstrap'
 class LoginForm extends React.Component{
 	render(){
 		return(
-			<div>
+			<div className="px-5 py-3">
 				<Form>
 					<Form.Group as={Row} controlId="formHorizontalUserName">
 					    <Col>
